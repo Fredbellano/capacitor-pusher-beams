@@ -32,10 +32,10 @@
   "author": "Practera",
   "license": "MIT",
   "devDependencies": {
-    "@capacitor/android": "^3.5.1",
-    "@capacitor/core": "^3.5.1",
+    "@capacitor/android": "^4.0.1",
+    "@capacitor/core": "^4.0.1",
     "@capacitor/docgen": "^0.0.10",
-    "@capacitor/ios": "^3.5.1",
+    "@capacitor/ios": "^4.0.1",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -48,7 +48,7 @@
     "typescript": "~4.0.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^3.0.0"
+    "@capacitor/core": "^4.0.0"
   },
   "keywords": [
     "capacitor",
@@ -70,9 +70,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/intersective/capacitor-pusher-beams"
+    "url": "https://github.com/Fredbellano/capacitor-pusher-beams"
   },
   "bugs": {
-    "url": "https://github.com/intersective/capacitor-pusher-beams/issues"
+    "url": "https://github.com/Fredbellano/capacitor-pusher-beams/issues"
   }
 }
