@@ -18,7 +18,12 @@ public class PusherBeams: CAPPlugin {
     }
     
     @objc func start(_ call: CAPPluginCall) {
-        call.success()
+      let instanceId = call.getString("instanceId") ?? ""
+
+        beamsClient.start(instanceId: instanceId)
+        call.resolve([
+          "success": true]
+        )
     }
     
     @objc func getDeviceId(_ call: CAPPluginCall) {

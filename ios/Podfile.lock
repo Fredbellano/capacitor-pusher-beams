@@ -1,7 +1,7 @@
 PODS:
-  - Capacitor (3.2.3):
+  - Capacitor (4.8.1):
     - CapacitorCordova
-  - CapacitorCordova (3.2.3)
+  - CapacitorCordova (4.8.1)
   - PushNotifications (4.0.0)
 
 DEPENDENCIES:
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
-  Capacitor: 525175245027732c4f9bc7c5209176c1acef854a
-  CapacitorCordova: e571f22d5672cea00d703d82eafb09adf257980d
+  Capacitor: 308aae8142159bfe8ec799fe2bca2342929d7cd9
+  CapacitorCordova: 99ca4a6de99c9719a440b4534e4496d284c37503
   PushNotifications: 2b2174b28bf48b1fe552686d1f95c53d62a4781d
 
 PODFILE CHECKSUM: 6a04e19d28c38875e5acf8410083c49bed035055
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.13.0
